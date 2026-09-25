@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "Node.js"
+		},
+		{
+			"path": "hello-nest"
 		}
 	],
 	"settings": {}
