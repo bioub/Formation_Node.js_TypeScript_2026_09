@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "Modules"
+		},
+		{
+			"path": "TypeScript"
+		},
+		{
+			"path": "Node.js"
 		}
 	],
 	"settings": {}

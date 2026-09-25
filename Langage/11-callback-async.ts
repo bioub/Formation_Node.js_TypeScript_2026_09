@@ -1,3 +1,5 @@
+import { setTimeout } from "node:timers";
+
 setTimeout(() => console.log("A"), 500);
 setTimeout(() => console.log("B"), 0);
 setTimeout(() => console.log("C"), 1000);

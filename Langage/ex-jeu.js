@@ -7,6 +7,7 @@
 // Attention, le callback de question est toujours appelé avec un type String, à convertir si besoin.
 
 import readline from "node:readline";
+import process from "node:process";
 
 const rl = readline.createInterface({
   input: process.stdin,

@@ -8,5 +8,3 @@ const names = ["Romain", "Jean", "Pierre"];
 for (const name of names) {
   console.log(hello(name));
 }
-
-
