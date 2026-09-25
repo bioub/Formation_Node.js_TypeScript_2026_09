@@ -198,3 +198,21 @@ Dans CreateProductDto :
 - price doit être un nombre > 0.01
 
 Configurer ValidationPipe pour utiliser class-validator.
+
+
+## Exercice 10: Sécurité
+
+Installer @nestjs/jwt puis le configurer, laisser les routes en lecture sans authentification.
+Par contre toutes les routes en ecriture doivent avoir une authentification (sauf createUser)
+
+Ajouter des décorateurs pour les roles comme dans les slides.
+
+Ajouter une propriété role dans le DTO CreateUserDto et l'entité User (mettre à jour la db et les fixtures).
+
+Pour les routes delete, il faudra être admin.
+
+## Exercice 11 : Logs
+
+Ajouter des logs debug à chaque appel de fonction.
+Logguer les valeurs retournées par la db.
+
